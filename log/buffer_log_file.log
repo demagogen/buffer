@@ -6,7 +6,7 @@ Buffer size: 10
 
 Print buffer
 
-	buffer cell			  hex		  bin
+	  buffer cell			hex		bin
 	-------------------------------------
 	| buffer[  0] =        0|	       0|
 	| buffer[  1] =        0|	       0|

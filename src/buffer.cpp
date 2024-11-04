@@ -38,7 +38,7 @@ BUFFER_ERROR buffer_dump(BUFFER* bufferInfo)
     fprintf(log_file, "Buffer size: %d \n", bufferInfo->size);
 
     fprintf(log_file, "\nPrint buffer\n\n");
-    fprintf(log_file, "\tbuffer cell\t\t\t  hex\t\t  bin\n");
+    fprintf(log_file, "\t  buffer cell\t\t\thex\t\tbin\n");
     fprintf(log_file, "\t-------------------------------------\n");
     for (size_t buffer_element = 0; buffer_element < bufferInfo->size; buffer_element++)
     {
